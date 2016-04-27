@@ -2,4 +2,4 @@ sudo: required
 language: python
 python:
 - "2.7"
-script: python travis_test_suites/test_01.py
+script: python test_01.py
