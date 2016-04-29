@@ -2,4 +2,4 @@ sudo: required
 language: python
 python:
 - "2.7"
-script: python test.ipynb
+script: python test.py
