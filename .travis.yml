@@ -4,4 +4,4 @@ python:
   - "2.7"
 install:
   - pip install runipy
-script: runipy test.ipynb --html result.html
+script: runipy test.ipynb
