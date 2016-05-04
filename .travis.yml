@@ -3,5 +3,5 @@ language: python
 python:
   - "2.7"
 install:
-  - pip install matplotlib
-script: python testplot.py
+  - pip install runipy
+script: runipy test.ipynb --html result.html
