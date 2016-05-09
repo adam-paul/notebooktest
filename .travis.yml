@@ -6,6 +6,6 @@ install:
   - pip install runipy
 script: 
   - runipy test.ipynb
-  - jupyter nbconvert test.ipynb --to html
+  - runipy test2.ipynb
 notifications:
   slack: nugrid:wTgGR31cFsNUqfytUDZ5ZLug
