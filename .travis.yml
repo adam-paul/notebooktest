@@ -7,3 +7,5 @@ install:
 script: 
   - runipy test.ipynb
   - jupyter nbconvert test.ipynb --to html
+notifications:
+  slack: nugrid:wTgGR31cFsNUqfytUDZ5ZLug
