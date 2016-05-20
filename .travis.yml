@@ -5,7 +5,7 @@ python:
 install:
   - pip install runipy
 script: 
-  - runipy test.ipynb
+  - runipy test.ipynb True
   - runipy test2.ipynb
 notifications:
-  slack: nugrid:wTgGR31cFsNUqfytUDZ5ZLug
+  email: false
