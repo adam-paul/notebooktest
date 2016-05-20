@@ -4,6 +4,8 @@ python:
   - "2.7"
 install:
   - pip install runipy
+  - pip install numpy
+  - pip install matplotlib
 script: 
   - runipy test.ipynb True
   - runipy test2.ipynb
